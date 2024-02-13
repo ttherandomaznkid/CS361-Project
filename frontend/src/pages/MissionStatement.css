@@ -1,0 +1,86 @@
+.mission {
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 20rem 6rem 0 10rem;
+    width: 135%;
+    text-align: center;
+
+}
+
+.mission .container {
+    height: 500px;
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+.mission h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.mission .container .content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin: 4rem 0;
+    
+}
+
+.mission .card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0,0,0,.2);
+    padding: 1rem;
+}
+
+
+
+
+.mission .card p {
+    color: #787878;
+    font-size: 1.1rem;
+    margin: 12px;
+    padding: 10rem 7rem 0 10rem;
+}
+
+.mission .card span {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+
+@media screen and (max-width: 940px) {
+    .mission .container {
+        width: 100%;
+        
+    }
+
+    .mission .container .content {
+        grid-template-columns: 1fr;
+    }
+
+    .mission .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
